@@ -38,6 +38,13 @@ public class Book {
         return numberOfPages;
     }
 
+    public void printDetails(){
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+        System.out.println("Genre: "+ genre);
+        System.out.println("Number of Pages: " + numberOfPages);
+    }
+
 
 
 
